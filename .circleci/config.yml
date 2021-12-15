@@ -22,8 +22,7 @@ jobs:
           # Update this line with the directory that contains your tests project file
           working_directory: ~/project/App.Tests
           name: Run tests
-          command: "echo run, World!"
-            dotnet test
+          command: "echo hello, world!"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
